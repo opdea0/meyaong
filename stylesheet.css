@@ -1,0 +1,155 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0px;
+  height: 3000px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.poster-image {
+  width: 30%;
+  height: auto;
+  position: relative; 
+  top: -50px;
+  left: 55px;
+}
+
+.review-title-image {
+  width: 91%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative; 
+  top: 30px;
+  left: 0px;
+}
+
+.preview {
+  width: 25%;
+  height: auto;
+  position: relative; 
+  top: 920px;
+  left: 50px;
+}
+
+.netflix {
+  width: 40%;
+  height: auto;
+  position: relative; 
+  top: 1100px;
+  right: 210px;
+}
+
+.title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: -760px;
+  margin-right: 10px;
+}
+
+.subtitle {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: right;
+  margin-top: -76px;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.divider-first {
+  border: 0.5px solid #CCCCCC;
+  margin: auto;
+  width: 57%;
+  margin-right: 44px;
+  margin-top: -20px;
+}
+
+.description {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 450px;
+  position: relative;
+  left: 400px; 
+  line-height: 3.0;
+}
+
+.review {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+  left: 70px;
+  margin-top: 190px;
+  margin-right: 130px;
+  line-height: 3.0;
+}
+
+.divider-second {
+  border: 0.5px solid #CCCCCC;
+  margin: auto;
+  width: 89%;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+
+.footer-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  position: relative; 
+  top: -650px;
+}
+
+.netflix {
+  cursor: pointer;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9비율 */
+  width: 700px; 
+  height: 20px;
+  overflow: hidden;
+  left: 370px;
+  top: 55px;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 35%;
+  height: 40%;
+}
+
+.video-container-second {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9비율 */
+  width: 700px; 
+  height: 20px;
+  overflow: hidden;
+  left: 690px;
+  top: -568px; 
+}
+
+.video-container-second iframe {
+  position: absolute;
+  width: 35%;
+  height: 40%;
+}
