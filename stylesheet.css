@@ -145,11 +145,12 @@ header img {
   height: 20px;
   overflow: hidden;
   left: 690px;
-  top: -568px; 
+  top: -567px; 
 }
 
 .video-container-second iframe {
   position: absolute;
   width: 35%;
   height: 40%;
+
 }
