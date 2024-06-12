@@ -41,7 +41,7 @@ header img {
   width: 25%;
   height: auto;
   position: relative; 
-  top: 920px;
+  top: 1300px;
   left: 50px;
 }
 
@@ -145,12 +145,11 @@ header img {
   height: 20px;
   overflow: hidden;
   left: 690px;
-  top: -567px; 
+  top: -568px; 
 }
 
 .video-container-second iframe {
   position: absolute;
   width: 35%;
   height: 40%;
-
 }
